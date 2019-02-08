@@ -85,7 +85,7 @@ public class MainActivity extends ActionBarActivity {
     }
 
     private void addDrawerItems() {
-        String[] osArray = { "Your Commands", "CREDITS", "CONTACT US" };
+        String[] osArray = { "MY COMMANDS", "CREDITS", "CONTACT US" };
         mAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, osArray);
         mDrawerList.setAdapter(mAdapter);
 
