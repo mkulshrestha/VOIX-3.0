@@ -1,6 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
+
+    lintOptions {
+        checkReleaseBuilds false
+
+    }
+
     compileSdkVersion 23
     buildToolsVersion '25.0.0'
     defaultConfig {
